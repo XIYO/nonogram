@@ -12,6 +12,7 @@
 		{#each row as cell, c}
 			<label class="[&:has(:checked)]:bg-red-300 w-20 h-20 border border-gray-200 cursor-pointer flex items-center justify-center hover:bg-blue-100 focus-within:ring-2 focus-within:ring-blue-500 focus-within:ring-opacity-50 bg-white">
 				<input
+					switch
 					type="checkbox"
 					aria-label="셀 선택"
 					class="sr-only"
